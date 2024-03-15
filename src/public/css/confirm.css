@@ -1,0 +1,129 @@
+body {
+    min-height: 100vh;
+    max-width: 1512px;
+}
+
+.header {
+    background: white;
+    border-bottom: solid 1px #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    width: 40%;
+    border-bottom: 1px solid #E0DFDE;
+    background-color: #BAA899;
+    color: #FFFFFF;
+}
+
+.th--text{
+    margin-left: -50%;
+    font-family: Inika;
+}
+
+.confirm-table__text {
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #E0DFDE;
+    display: flex;
+    
+}
+
+.first_name{
+    margin-left: -70%;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #BAA899;
+    font-size: 120%;
+    font-family: Inika;
+}
+
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.form__button--items{
+    padding-top: 1%;
+    margin-left:10%;
+    width: 100%;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 15%;
+    height: 50px;
+    border: none;
+    background: #BAA899;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+.form__button-correction{
+    margin-left: 5%;
+    padding: 10px;
+    width: 15%;
+    height: 50px;
+    border: none;
+    background: #FFFFFF;
+    color: #BAA899;
+    cursor: pointer;
+    font-size: 120%;
+}
